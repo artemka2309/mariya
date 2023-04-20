@@ -25,15 +25,14 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 159;
-  /* HSL color mode */
-  --base-color: hsl(var(--hue) 36% 57%);
-  --base-color-second: hsl(var(--hue) 65% 88%);
-  --base-color-alt: hsl(var(--hue) 57% 53%);
-  --title-color: hsl(var(--hue) 41% 10%);
-  --text-color: hsl(0 0% 46%);
-  --text-color-light: hsl(0 0% 98%);
-  --body-color: hsl(0 0% 98%);
+  --base-color: rgb(181, 126, 220);
+  --base-color-second: rgb(241, 232, 255);
+  --base-color-alt: rgb(216, 179, 232);
+  --title-color: rgb(31, 26, 34);
+  --text-color: rgb(117, 117, 117);
+  --text-color-light: rgb(250, 250, 250);
+  --body-color: rgb(255, 255, 255);
+
 
   /* fonts */
   --title-font-size: 1.875rem;
@@ -377,37 +376,37 @@ nav.show div.icon-close {
   margin-bottom: 0.75rem;
 }
 
-/* Testimonials */
+/* feedback */
 
-#testimonials {
+#feedback {
   background: white;
 }
 
-#testimonials .container {
+#feedback .container {
   margin-left: 0;
   margin-right: 0;
 }
 
-#testimonials header {
+#feedback header {
   margin-bottom: 0;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
 
-#testimonials blockquote {
+#feedback blockquote {
   padding: 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-radius: 0.25rem;
 }
 
-#testimonials blockquote p {
+#feedback blockquote p {
   position: relative;
   text-indent: 1.875rem;
   margin-bottom: 1.5rem;
   color: var(--title-color);
 }
 
-#testimonials blockquote p span {
+#feedback blockquote p span {
   font: 700 2.5rem serif;
   position: absolute;
   top: -0.25;
@@ -415,14 +414,14 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
-#testimonials cite {
+#feedback cite {
   display: flex;
   align-items: center;
   color: var(--text-color);
   font-style: normal;
 }
 
-#testimonials cite img {
+#feedback cite img {
   width: 2rem;
   height: 2rem;
   object-fit: cover;
@@ -546,7 +545,7 @@ footer .social a:hover {
   }
 
   .section header,
-  #testimonials header {
+  #feedback header {
     max-width: 30rem;
     text-align: center;
     margin-left: auto;
@@ -652,8 +651,8 @@ footer .social a:hover {
     padding-left: 3rem;
   }
 
-  /* Testimonials */
-  #testimonials .container {
+  /* feedback */
+  #feedback .container {
     margin-left: auto;
     margin-right: auto;
   }

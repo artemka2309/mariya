@@ -43,7 +43,7 @@ scrollReveal.reveal(
   `#home .image, #home .text,
   #about .image, #about .text,
   #services header, #services .card,
-  #testimonials header, #testimonials .testimonials,
+  #feedback header, #feedback .feedback,
   #contact .text, #contact .links,
   footer .brand, footer .social
   `,
