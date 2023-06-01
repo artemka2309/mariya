@@ -1,6 +1,10 @@
 /* Reset CSS */
-
+@font-face {
+	font-family: 'Beaty'; 
+	src: url(/assets/fonts/Bradobrei.otf); 
+}
 * {
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -343,6 +347,7 @@ nav.show div.icon-close {
 }
 
 #about .text h1 {
+  font-family: "Be";
   margin-bottom: 1rem;
 }
 
@@ -690,4 +695,9 @@ footer .social a:hover {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
   }
+}
+
+
+span.logo {
+  font-family: 'Beaty';
 }
